@@ -60,7 +60,7 @@ export default class Registration extends React.Component{
                 />
                 <br/>
                  <label> Volunteer Type: </label>
-                 <select onChange = {e => this.change(e)} value = {this.state.volunteerType}>
+                 <select onChange = {e => this.change(e)} value = {this.state.volunteerType} name = "volunteerType">
                      <option defaultValue> Select Volunteer Type</option>
                      <option value = "Core Volunteer"> Core Volunteer</option>
                      <option value = "Regular Volunteer"> Regular Volunteer</option>
